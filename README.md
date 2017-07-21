@@ -1,4 +1,4 @@
-# Adapted from https://gist.github.com/randyklein/9602cb01e1d9a58b52c9b4e162eef76c
+Adapted from https://gist.github.com/randyklein/9602cb01e1d9a58b52c9b4e162eef76c
 
 Queries the nicehash API every 30 seconds to check profitability. If profitability is 0 or
 falls below a configurable threshold, trigger an IFTTT webhook. IFTTT webhook can be 
