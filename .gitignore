@@ -1,0 +1,5 @@
+config.py
+mining_monitoring/
+*.pyc
+debug.log
+

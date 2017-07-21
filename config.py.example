@@ -1,0 +1,13 @@
+# Alert if profitability falls below this threshold in BTC/day
+minProf= .0001 
+
+# niceHash BTC address to monitor
+# It's the last part of the URL that looks like this:
+# https://new.nicehash.com/miner/<Your BTC Address>
+btcAddress = "Your BTC Address" 
+
+# Your IFTTT Maker/Webhook key.
+# Try https://ifttt.com/services/maker_webhooks/settings
+# It's the last part of the URL that looks like this:
+# https://maker.ifttt.com/use/<Your IFTTT key>
+iftttKey = "Your IFTTT key" # key from IFTTT Maker applet
