@@ -8,5 +8,6 @@ The the script uses the IFTTT Maker/Webhook channel to do the alerting.  To conf
 
 1. Configure an IFTTT Maker/Webhook applet. Try https://platform.ifttt.com/maker/
    Set the trigger as a webhook with event name "nicehash".
+   If you want, add {{Value1}} in your body somewhere. This will contain the alert message.
 2. Setup the config.py settings. Add your BTC address and IFTTT key. See an example at config.py.example.
 3. Run `python nicehash.py`
